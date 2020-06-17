@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+*,body{
+  font-family: 'Asap',sans-serif;
+  margin: 0;
+  padding:0;
+}
+header{
+  text-align: center;
+  padding-top: 10px;
+  color: #111542;
+  height: 50px;
+}
+#main{
+  background: #141237;
+  text-align: center;
+  color:white;
+  height: 100vh;
+}
+.text{
+  padding-top:20px;
+}
+.square{
+  width:100px;
+  height: 100px;
+  border-color: #880707;
+  border-style: solid;
+}
+.grid{
+  margin:30px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 318px;
+  height: 318px;
+}
+.mole{
+  background-image: url('mole.jpg');
+  background-size: cover;
+}
